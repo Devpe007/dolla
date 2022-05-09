@@ -23,5 +23,7 @@ module.exports = {
     'react/jsx-no-useless-fragment': 'off',
     'import/prefer-default-export': 'off',
     'no-unused-vars': 'off',
+    'react/jsx-no-bind': 'off',
+    'react/prop-types': 'off',
   },
 };
