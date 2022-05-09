@@ -19,5 +19,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    'no-extra-semi': 'off',
+    'react/jsx-no-useless-fragment': 'off',
   },
 };
