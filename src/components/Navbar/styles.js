@@ -11,7 +11,7 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
 
-  /* margin-top: -80px; */
+  margin-top: -80px;
 
   height: 80px;
 
