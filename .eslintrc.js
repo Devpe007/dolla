@@ -21,5 +21,6 @@ module.exports = {
   rules: {
     'no-extra-semi': 'off',
     'react/jsx-no-useless-fragment': 'off',
+    'import/prefer-default-export': 'off',
   },
 };
