@@ -23,7 +23,7 @@ function HeroSection() {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <HeroBg>
         <VideoBg
           autoPlay
@@ -47,6 +47,11 @@ function HeroSection() {
             onMouseLeave={toggleHover}
             primary="true"
             dark="true"
+            smooth
+            duration={500}
+            spy
+            exact="true"
+            offset={-80}
           >
             Get started
             {hover ? <ArrowForwaed /> : <FaArrowRight />}
