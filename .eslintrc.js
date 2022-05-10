@@ -27,5 +27,6 @@ module.exports = {
     'react/prop-types': 'off',
     'global-require': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/jsx-no-constructed-context-values': 'off',
   },
 };
