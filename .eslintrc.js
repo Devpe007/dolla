@@ -25,5 +25,7 @@ module.exports = {
     'no-unused-vars': 'off',
     'react/jsx-no-bind': 'off',
     'react/prop-types': 'off',
+    'global-require': 'off',
+    'react/jsx-props-no-spreading': 'off',
   },
 };
